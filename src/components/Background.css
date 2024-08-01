@@ -1,0 +1,11 @@
+.background {
+    position: fixed; /* or absolute if you prefer */
+    top: 0;
+    left: 0;
+    width: 100%; /* Full viewport width */
+    height: 100%; /* Full viewport height */
+    background-size: cover; /* Resize to cover the element while maintaining aspect ratio */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    background-image: url('../assets/ason\ mind\ boceto.png');
+}
