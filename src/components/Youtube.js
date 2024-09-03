@@ -55,10 +55,7 @@ const Youtube = () => {
 };
 
 export default Youtube;
-const repro = { margin: 4 , display:'flex',justifyContent:'right'}
-const container = { 
-  display: 'flex',
-}
+
 const title = { fontSize: { lg: '30px' }, fontWeight: 'bold', paddingBottom: '1vh', textTransform:'uppercase',textAlign:'center'}
 const maincontainer  = { display: 'flex', flexDirection: 'row', height: '100vh', width: '100%', color: 'white' ,flex:1}
 const  background ={
