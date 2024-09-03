@@ -7,6 +7,7 @@ import './fonts.css'; // Import the CSS file for fonts
 import Home from './components/Home';
 import About from './components/About';
 import Releases from './components/Releases';
+import Youtube from './components/Youtube';
 
 const theme = createTheme({
   typography: {
@@ -24,6 +25,7 @@ function App() {
       <Home/>
       <About/>
       <Releases/>
+      <Youtube/>
     </Box>
     </ThemeProvider>
   );

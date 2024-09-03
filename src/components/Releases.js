@@ -8,29 +8,23 @@ const customColor = '#000000'; // Example: orange color
 const Releases = () => {
 
   return (
-    <Box sx={{ display: 'flex', flexDirection: 'row', height: '100vh', width: '100%', color: 'white' ,flex:1}}>
+    <Box sx={maincontainer}>
     <CardMedia
       component="img"
       image={jm3}
       alt="Background"
-      sx={{
-        position: 'absolute',
-        width: '100%',
-        height: '100%',
-        objectFit: 'cover',
-        zIndex: -1,
-      }}
+      sx={background}
     />
     <Box sx={{ display: 'flex', flex:1, margin: '5vw', flexDirection: 'column',  }}>
       <Box sx={container}>
         <Box></Box>
         <Box sx={{display:'flex', flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
-            <Typography variant="h1" sx={{ fontSize: { lg: '30px' }, fontWeight: 'bold', paddingBottom: '2vh', textTransform:'uppercase'}} gutterBottom>
+            <Typography variant="h1" sx={title} gutterBottom>
               Latest Sets & Releases
             </Typography>
             <Box sx={repro}>   
                 <iframe
-                  width="600"
+                  width="500"
                   height="150"
                   scrolling="no"
                   frameBorder="no"
@@ -41,7 +35,7 @@ const Releases = () => {
 
               <Box sx={repro}>
                 <iframe
-                  width="600"
+                  width="500"
                   height="150"
                   scrolling="no"
                   frameBorder="no"
@@ -52,7 +46,7 @@ const Releases = () => {
 
               <Box sx={repro}>
                 <iframe
-                  width="600"
+                  width="500"
                   height="150"
                   scrolling="no"
                   frameBorder="no"
@@ -78,4 +72,13 @@ const container = { display: 'grid',
   gridTemplateColumns: '1fr 1fr', // Creates two equal columns
   height: '100vh', // Full viewport height
   width: '100%', // Full width}
+}
+const title = { fontSize: { lg: '30px' }, fontWeight: 'bold', paddingBottom: '2vh', textTransform:'uppercase'}
+const maincontainer  = { display: 'flex', flexDirection: 'row', height: '100vh', width: '100%', color: 'white' ,flex:1}
+const  background ={
+  position: 'absolute',
+  width: '100%',
+  height: '100%',
+  objectFit: 'cover',
+  zIndex: -1,
 }
