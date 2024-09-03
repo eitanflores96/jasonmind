@@ -2,7 +2,6 @@ import React from 'react';
 import './Background.css';
 import { Box, CardMedia, Typography } from '@mui/material';
 import jm3 from '../assets/jm3.png'
-import logo from '../assets/Logo.png'
 const customColor = '#000000'; // Example: orange color
 
 const Releases = () => {
@@ -24,6 +23,7 @@ const Releases = () => {
             </Typography>
             <Box sx={repro}>   
                 <iframe
+                title='a1'
                   width="500"
                   height="150"
                   scrolling="no"
@@ -35,6 +35,7 @@ const Releases = () => {
 
               <Box sx={repro}>
                 <iframe
+                  title='a3'
                   width="500"
                   height="150"
                   scrolling="no"
@@ -46,6 +47,7 @@ const Releases = () => {
 
               <Box sx={repro}>
                 <iframe
+                title='a4'
                   width="500"
                   height="150"
                   scrolling="no"
