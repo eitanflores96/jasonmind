@@ -14,7 +14,7 @@ const About = () => {
   const texts = [
     "Jason Mind is a talented DJ emerging from the Buenos Aires electronic music scene.",
     "His genre-defying sets seamlessly blend Afro House, Melodic Techno, and Indie Dance, creating a unique musical journey. Known for his versatility, Jason arranges each set to highlight the best music, ensuring an unforgettable experience every time.",
-    "With an uprising career, Jason has shared the booth with international artists like Stephan Jolk, Goom Gum, MoBlack, Technasia, ID ID, as well as national talents such as Brigado Crew, Bob Tosh, This&That, NonCitizens, Marcelo Vasami, John Cosani, Muter, FrancoBA, KeyCity, and many others."
+    "With an uprising career, Jason has shared the booth with international artists like Stephan Jolk, Goom Gum, MoBlack, Technasia ID ID, as well as national talents such as Brigado Crew, Bob Tosh, This&That, NonCitizens, Marcelo Vasami, John Cosani, Muter, FrancoBA, KeyCity, and many others."
   ];
 
   const [ref, inView] = useInView({  threshold: 0.3 });
@@ -50,7 +50,7 @@ const About = () => {
         <Box>
           {springs.map((styles, index) => (
             <animated.div key={index} style={styles}>
-              <Typography variant="h5" sx={{ fontSize: { lg: '20px',xs:'10px' }, paddingBottom: '2vh' }} gutterBottom>
+              <Typography variant="h5" sx={{ fontSize: { lg: '20px' }, paddingBottom: '2vh' }} gutterBottom>
                 <Box component="span" sx={index === 0 ? { fontWeight: 'bold' } : {}}>
                   {texts[index]}
                 </Box>
@@ -97,24 +97,14 @@ const About = () => {
             />
           </Box>
         </Box>
-
-        <Box sx={{ display: 'flex', flexDirection: 'column' }}>
-          <Box sx={{ display: 'flex', flexDirection: 'row' }}>
-            <CardMedia
+        <Box sx={{ display: 'flex', flexDirection: 'row' }}>
+        <CardMedia
               component="img"
-              image={cube3}
+              image={cube5}
               alt="Logo"
-              sx={logo}
+              sx={logomail}
             />
-            <CardMedia
-              component="img"
-              image={cube4}
-              alt="Logo"
-              sx={logo}
-            />
-          </Box>
         </Box>
-
       </Box>
       <Box sx={spaceBox}>
       </Box>
@@ -124,11 +114,11 @@ const About = () => {
 
 export default About;
 const spaceBox ={ flex: 1, padding: 2, display: 'flex', justifyContent: 'center', alignItems: 'end' }
-const aboutBox = { display: 'flex', flexDirection: 'row', height: '100vh', width: '100%', color: 'white'};
+const aboutBox = { display: 'flex', flexDirection: 'row', height: '100vh', width: '100%', color: 'white' };
 const background2 = { position: 'absolute', width: '100%', height: '100vh', objectFit: 'cover', zIndex: -1 };
 const textContainer = { display: 'flex', flex: 1, margin: '5vw', flexDirection: 'column' };
 const logo = {
-  width: '226px', height: 'auto', margin: 2,
+  width: '276px', height: 'auto', margin: 2,
   transition: 'background-color 0.3s, transform 0.3s',
   '&:hover': {
     backgroundColor: 'transparent',
@@ -136,4 +126,12 @@ const logo = {
     filter: 'brightness(0) invert(1)',
   },
 };
-
+const logomail = {
+  width: '582px', height: 'auto', margin: 2,
+  transition: 'background-color 0.3s, transform 0.3s',
+  '&:hover': {
+    backgroundColor: 'transparent',
+    transform: 'scale(1.05)',
+    filter: 'brightness(0) invert(1)',
+  },
+};

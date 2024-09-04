@@ -23,8 +23,8 @@ function App() {
     <Box>
       <Home/>
       <About/>
-      <Youtube/>
       <Releases/>
+      <Youtube/>
     </Box>
     </ThemeProvider>
   );
