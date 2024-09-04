@@ -14,7 +14,7 @@ const Releases = () => {
       alt="Background"
       sx={background}
     />
-    <Box sx={{ display: 'flex', flex:1, margin: '5vw', flexDirection: 'column',  }}>
+    <Box sx={{ display: 'flex', flex:1, margin: '4vw', flexDirection: 'column',  }}>
       <Box sx={container}>
         <Box></Box>
         <Box sx={{display:'flex', flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
@@ -24,7 +24,7 @@ const Releases = () => {
             <Box sx={repro}>   
                 <iframe
                 title='a1'
-                  width="500"
+                  width="400"
                   height="150"
                   scrolling="no"
                   frameBorder="no"
@@ -36,7 +36,7 @@ const Releases = () => {
               <Box sx={repro}>
                 <iframe
                   title='a3'
-                  width="500"
+                  width="400"
                   height="150"
                   scrolling="no"
                   frameBorder="no"
@@ -48,7 +48,7 @@ const Releases = () => {
               <Box sx={repro}>
                 <iframe
                 title='a4'
-                  width="500"
+                  width="400"
                   height="150"
                   scrolling="no"
                   frameBorder="no"
@@ -69,10 +69,10 @@ const Releases = () => {
 };
 
 export default Releases;
-const repro = { margin: 4 , display:'flex',justifyContent:'right'}
+const repro = { margin: 2 , display:'flex',justifyContent:'right'}
 const container = { display: 'grid',
   gridTemplateColumns: '1fr 1fr', // Creates two equal columns
-  height: '100vh', // Full viewport height
+  height: '120vh', // Full viewport height
   width: '100%', // Full width}
 }
 const title = { fontSize: { lg: '30px' }, fontWeight: 'bold', paddingBottom: '2vh', textTransform:'uppercase'}
