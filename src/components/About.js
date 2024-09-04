@@ -8,6 +8,7 @@ import cube1 from '../assets/Insta.png';
 import cube2 from '../assets/Soundcloud.png';
 import cube3 from '../assets/Drive.png';
 import cube4 from '../assets/Spoty.png';
+import cube5 from '../assets/Mail.png'
 
 const About = () => {
   const texts = [
@@ -99,7 +100,7 @@ const About = () => {
         <Box sx={{ display: 'flex', flexDirection: 'row' }}>
         <CardMedia
               component="img"
-              image={cube4}
+              image={cube5}
               alt="Logo"
               sx={logomail}
             />
