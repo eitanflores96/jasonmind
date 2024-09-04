@@ -99,7 +99,7 @@ const About = () => {
         <Box sx={{ display: 'flex', flexDirection: 'row' }}>
         <CardMedia
               component="img"
-              image={cube5}
+              image={cube4}
               alt="Logo"
               sx={logomail}
             />
