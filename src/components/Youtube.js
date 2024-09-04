@@ -1,7 +1,7 @@
 import React from 'react';
 import './Background.css';
 import { Box, CardMedia, Typography } from '@mui/material';
-import jm4 from '../assets/jm4.jpg'
+import jm3 from '../assets/jm3.png'
 import logo from '../assets/Logo.png'
 const videoData = [
   { id: 1, url: 'https://www.youtube.com/embed/TjvapY09iN4?start=1' },
@@ -13,7 +13,7 @@ const Youtube = () => {
     <Box sx={maincontainer}>
     <CardMedia
       component="img"
-      image={jm4}
+      image={jm3}
       alt="Background"
       sx={background}
     />
