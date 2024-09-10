@@ -8,8 +8,8 @@ import cube1 from '../assets/Insta.png';
 import cube2 from '../assets/Soundcloud.png';
 import cube3 from '../assets/Drive.png';
 import cube4 from '../assets/Spoty.png';
-import cube5 from '../assets/Mail.png'
-
+import cube5 from '../assets/Mail2.png'
+import cube6 from '../assets/youtube.png'
 const About = () => {
   const texts = [
     "Jason Mind is a talented DJ emerging from the Buenos Aires electronic music scene.",
@@ -58,8 +58,9 @@ const About = () => {
             </animated.div>
           ))}
         </Box>
-        <Box sx={{ display: 'flex', flexDirection: 'column', paddingTop: '20px' }}>
-          <Typography variant="h5">Visit his digital profiles</Typography>
+        <Typography variant="h5">Visit his digital profiles</Typography>
+
+        <Box sx={{ display: 'flex', flexDirection: 'column', paddingTop: '5px',marginLeft:'5vh' }}>
           <Box sx={{ display: 'flex', flexDirection: 'row' }}>
             <CardMedia
               component="img"
@@ -81,7 +82,7 @@ const About = () => {
             />
           </Box>
         </Box>
-        <Box sx={{ display: 'flex', flexDirection: 'column' }}>
+        <Box sx={{ display: 'flex', flexDirection: 'column',marginLeft:'5vh' }}>
           <Box sx={{ display: 'flex', flexDirection: 'row' }}>
             <CardMedia
               component="img"
@@ -97,12 +98,22 @@ const About = () => {
             />
           </Box>
         </Box>
-        <Box sx={{ display: 'flex', flexDirection: 'row' }}>
+        <Box sx={{ display: 'flex', flexDirection: 'row',marginLeft:'5vh' }}>
         <CardMedia
               component="img"
               image={cube5}
               alt="Logo"
-              sx={logomail}
+              sx={logo}
+              onClick={() => window.location = 'mailto:yourmail@domain.com'}
+            />
+          <CardMedia
+              component="img"
+              image={cube6}
+              alt="Logo"
+              sx={logo}
+              onClick={() => {
+                window.open('https://www.youtube.com/@jasonmind');
+              }}            
             />
         </Box>
       </Box>
@@ -118,7 +129,7 @@ const aboutBox = { display: 'flex', flexDirection: 'row', height: '100vh', width
 const background2 = { position: 'absolute', width: '100%', height: '100vh', objectFit: 'cover', zIndex: -1 };
 const textContainer = { display: 'flex', flex: 1, margin: '5vw', flexDirection: 'column' };
 const logo = {
-  width: '276px', height: 'auto', margin: 2,
+  width: '226px', height: 'auto', margin: 2,
   transition: 'background-color 0.3s, transform 0.3s',
   '&:hover': {
     backgroundColor: 'transparent',
