@@ -137,12 +137,3 @@ const logo = {
     filter: 'brightness(0) invert(1)',
   },
 };
-const logomail = {
-  width: '582px', height: 'auto', margin: 2,
-  transition: 'background-color 0.3s, transform 0.3s',
-  '&:hover': {
-    backgroundColor: 'transparent',
-    transform: 'scale(1.05)',
-    filter: 'brightness(0) invert(1)',
-  },
-};
