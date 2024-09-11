@@ -62,16 +62,48 @@ const About = () => {
 
         <Box sx={{ display: 'flex', flexDirection: 'column', paddingTop: '5px',marginLeft:'5vh' }}>
           <Box sx={{ display: 'flex', flexDirection: 'row' }}>
-            <CardMedia
+          <CardMedia
               component="img"
-              image={cube1}
+              image={cube5}
+              alt="Logo"
+              sx={logo}
+              onClick={() => window.location = 'mailto:yourmail@domain.com'}
+            />
+          <CardMedia
+              component="img"
+              image={cube3}
               alt="Logo"
               sx={logo}
               onClick={() => {
-                window.open('https://www.instagram.com/jasonmind1/');
-              }}
+                window.open('https://drive.google.com/drive/folders/10Tw0ZmqXdLcFEa40CInxH9Uu6TGUJHzH');
+              }}   
             />
-            <CardMedia
+
+          </Box>
+        </Box>
+        <Box sx={{ display: 'flex', flexDirection: 'row',marginLeft:'5vh' }}>
+        <CardMedia
+            component="img"
+            image={cube6}
+            alt="Logo"
+            sx={logo}
+            onClick={() => {
+              window.open('https://www.youtube.com/@jasonmind');
+            }}            
+          />
+          <CardMedia
+            component="img"
+            image={cube1}
+            alt="Logo"
+            sx={logo}
+            onClick={() => {
+              window.open('https://www.instagram.com/jasonmind1/');
+            }}
+          />
+        </Box>
+        <Box sx={{ display: 'flex', flexDirection: 'column',marginLeft:'5vh' }}>
+          <Box sx={{ display: 'flex', flexDirection: 'row' }}>
+          <CardMedia
               component="img"
               image={cube2}
               alt="Logo"
@@ -79,16 +111,6 @@ const About = () => {
               onClick={() => {
                 window.open('https://soundcloud.com/jasonmind');
               }}
-            />
-          </Box>
-        </Box>
-        <Box sx={{ display: 'flex', flexDirection: 'column',marginLeft:'5vh' }}>
-          <Box sx={{ display: 'flex', flexDirection: 'row' }}>
-            <CardMedia
-              component="img"
-              image={cube3}
-              alt="Logo"
-              sx={logo}
             />
             <CardMedia
               component="img"
@@ -98,24 +120,7 @@ const About = () => {
             />
           </Box>
         </Box>
-        <Box sx={{ display: 'flex', flexDirection: 'row',marginLeft:'5vh' }}>
-        <CardMedia
-              component="img"
-              image={cube5}
-              alt="Logo"
-              sx={logo}
-              onClick={() => window.location = 'mailto:yourmail@domain.com'}
-            />
-          <CardMedia
-              component="img"
-              image={cube6}
-              alt="Logo"
-              sx={logo}
-              onClick={() => {
-                window.open('https://www.youtube.com/@jasonmind');
-              }}            
-            />
-        </Box>
+
       </Box>
       <Box sx={spaceBox}>
       </Box>
