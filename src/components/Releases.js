@@ -80,7 +80,7 @@ const maincontainer  = { display: 'flex', flexDirection: 'row', height: '100vh',
 const  background ={
   position: 'absolute',
   width: '100%',
-  height: '100%',
+  height: '100vh',
   objectFit: 'cover',
   zIndex: -1,
 }
