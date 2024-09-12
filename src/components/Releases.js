@@ -25,7 +25,7 @@ const Releases = () => {
                 <iframe
                 title='a1'
                   width="500"
-                  height="150"
+                  height="110"
                   scrolling="no"
                   frameBorder="no"
                   allow="autoplay"
@@ -37,7 +37,7 @@ const Releases = () => {
                 <iframe
                   title='a3'
                   width="500"
-                  height="150"
+                  height="110"
                   scrolling="no"
                   frameBorder="no"
                   allow="autoplay"
@@ -49,7 +49,7 @@ const Releases = () => {
                 <iframe
                 title='a4'
                   width="500"
-                  height="150"
+                  height="110"
                   scrolling="no"
                   frameBorder="no"
                   allow="autoplay"
