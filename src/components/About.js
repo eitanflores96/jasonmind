@@ -134,7 +134,7 @@ const aboutBox = { display: 'flex', flexDirection: 'row', height: '100vh', width
 const background2 = { position: 'absolute', width: '100%', height: '100vh', objectFit: 'cover', zIndex: -1 };
 const textContainer = { display: 'flex', flex: 1, margin: '5vw', flexDirection: 'column' };
 const logo = {
-  width: '10vw', height: 'auto', margin: 2,
+  width: '11vw', height: 'auto', margin: 2,
   transition: 'background-color 0.3s, transform 0.3s',
   '&:hover': {
     backgroundColor: 'transparent',
