@@ -14,7 +14,7 @@ const About = () => {
   const texts = [
     "Jason Mind is a talented DJ emerging from the Buenos Aires electronic music scene.",
     "His genre-defying sets seamlessly blend Afro House, Melodic Techno, and Indie Dance, creating a unique musical journey. Known for his versatility, Jason arranges each set to highlight the best music, ensuring an unforgettable experience every time.",
-    "With an uprising career, Jason has shared the booth with international artists like Stephan Jolk, Goom Gum, MoBlack, Technasia ID ID, as well as national talents such as Brigado Crew, Bob Tosh, This&That, NonCitizens, Marcelo Vasami, John Cosani, Muter, FrancoBA, KeyCity, and many others."
+    "With an uprising career, Jason has shared the booth with international artists like Stephan Jolk, Goom Gum, MoBlack, Technasia, ID ID, as well as national talents such as Brigado Crew, Bob Tosh, This&That, NonCitizens, Marcelo Vasami, John Cosani, Muter, FrancoBA, KeyCity, and many others."
   ];
 
   const [ref, inView] = useInView({  threshold: 0.3 });
