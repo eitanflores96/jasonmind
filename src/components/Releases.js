@@ -25,8 +25,8 @@ const Releases = () => {
             <Box sx={repro}>   
                 <iframe
                 title='a1'
-                  width="500"
-                  height="110"
+                  width="480vw"
+                  height="120vh"
                   scrolling="no"
                   frameBorder="no"
                   allow="autoplay"
@@ -37,8 +37,8 @@ const Releases = () => {
               <Box sx={repro}>
                 <iframe
                   title='a3'
-                  width="500"
-                  height="110"
+                  width="480vw"
+                  height="120vh"
                   scrolling="no"
                   frameBorder="no"
                   allow="autoplay"
@@ -49,8 +49,8 @@ const Releases = () => {
               <Box sx={repro}>
                 <iframe
                 title='a4'
-                  width="500"
-                  height="110"
+                  width="480vw"
+                  height="120vh"
                   scrolling="no"
                   frameBorder="no"
                   allow="autoplay"
@@ -76,7 +76,7 @@ const container = { display: 'grid',
   height: '100vh', // Full viewport height
   width: '100%', // Full width}
 }
-const title = { fontSize: { lg: '35px' }, fontWeight: 'bold', paddingBottom: '2vh', textTransform:'uppercase'}
+const title = { fontSize: { lg: '4vh' }, fontWeight: 'bold', paddingBottom: '2vh', textTransform:'uppercase'}
 const maincontainer  = { display: 'flex', flexDirection: 'row', height: '100vh', width: '100%', color: 'white' ,flex:1}
 const  background ={
   position: 'absolute',
