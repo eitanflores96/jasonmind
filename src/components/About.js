@@ -50,7 +50,7 @@ const About = () => {
         <Box>
           {springs.map((styles, index) => (
             <animated.div key={index} style={styles}>
-              <Typography variant="h5" sx={{ fontSize: { lg: '20px' }, paddingBottom: '2vh' }} gutterBottom>
+              <Typography variant="h5" sx={{ fontSize: { lg: '12px',md:'10px',xl:'20px' }, paddingBottom: '2vh' }} gutterBottom>
                 <Box component="span" sx={index === 0 ? { fontWeight: 'bold' } : {}}>
                   {texts[index]}
                 </Box>
@@ -58,9 +58,9 @@ const About = () => {
             </animated.div>
           ))}
         </Box>
-        <Typography variant="h5">Visit his digital profiles</Typography>
+        <Typography variant="h5" sx={{fontSize: { lg: '12px',md:'10px',xl:'20px' }}}>Visit his digital profiles</Typography>
 
-        <Box sx={{ display: 'flex', flexDirection: 'column', paddingTop: '5px',marginLeft:'5vh' }}>
+        <Box sx={{ display: 'flex', flexDirection: 'column', paddingTop: '3vh',marginLeft:'5vh' }}>
           <Box sx={{ display: 'flex', flexDirection: 'row' }}>
           <CardMedia
               component="img"
@@ -134,7 +134,7 @@ const aboutBox = { display: 'flex', flexDirection: 'row', height: '100vh', width
 const background2 = { position: 'absolute', width: '100%', height: '100vh', objectFit: 'cover', zIndex: -1 };
 const textContainer = { display: 'flex', flex: 1, margin: '5vw', flexDirection: 'column' };
 const logo = {
-  width: '226px', height: 'auto', margin: 2,
+  width: '200px', height: 'auto', margin: 2,
   transition: 'background-color 0.3s, transform 0.3s',
   '&:hover': {
     backgroundColor: 'transparent',
