@@ -25,7 +25,7 @@ const Releases = () => {
             <Box sx={repro}>   
                 <iframe
                   title='a1'
-                  style={{width:'30vw',height:'13vh'}}
+                  style={{width:'30vw',height:'17vh'}}
                   scrolling="no"
                   frameBorder="no"
                   allow="autoplay"
@@ -35,7 +35,7 @@ const Releases = () => {
 
               <Box sx={repro}>
                 <iframe
-                  style={{width:'30vw',height:'13vh'}}
+                  style={{width:'30vw',height:'17vh'}}
                   title='a3'
                   scrolling="no"
                   frameBorder="no"
@@ -47,7 +47,7 @@ const Releases = () => {
               <Box sx={repro}>
                 <iframe
                   title='a4'
-                  style={{width:'30vw',height:'13vh'}}
+                  style={{width:'30vw',height:'17vh'}}
                   scrolling="no"
                   frameBorder="no"
                   allow="autoplay"
