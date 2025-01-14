@@ -6,6 +6,8 @@ import logo from '../assets/Logo.png'
 const videoData = [
   { id: 1, url: 'https://www.youtube.com/embed/TjvapY09iN4?start=1' },
   { id: 2, url: 'https://www.youtube.com/embed/EL5ic6sQrmE?start=1' },
+  { id: 3, url: 'https://www.youtube.com/embed/AudZ4Y1d1Lc?si=LUl5e-8UEGRjAH8E?start=1' },
+
 ]
 const Youtube = () => {
 
