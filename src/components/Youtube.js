@@ -6,6 +6,8 @@ import logo from '../assets/Logo.png'
 const videoData = [
   { id: 1, url: 'https://www.youtube.com/embed/TjvapY09iN4?start=1' },
   { id: 2, url: 'https://www.youtube.com/embed/EL5ic6sQrmE?start=1' },
+  { id: 3, url: 'https://www.youtube.com/embed/AudZ4Y1d1Lc?si=LUl5e-8UEGRjAH8E?start=1' },
+
 ]
 const Youtube = () => {
 
@@ -33,7 +35,7 @@ const Youtube = () => {
           </Box>
         <Box sx={videoBox}>
             {videoData.map((video) => (
-            <Box key={video.id} sx={{ width:{xl:'30vw',lg:'30vw',md:'30vw',sm:'10vw',xs:'50vw'}, maxWidth: 800, margin:'1vh' }}>
+            <Box key={video.id} sx={{ width:{xl:'23vw',lg:'23vw',md:'25vw',sm:'50vw',xs:'50vw'}, maxWidth: 800, margin:'1vh' }}>
               <iframe
                 width="100%"
                 height="315"
