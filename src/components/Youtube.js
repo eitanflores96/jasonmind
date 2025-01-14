@@ -33,7 +33,7 @@ const Youtube = () => {
           </Box>
         <Box sx={videoBox}>
             {videoData.map((video) => (
-            <Box key={video.id} sx={{ width:{xl:'30vw',lg:'30vw',md:'30vw',sm:'10vw',xs:'50vw'}, maxWidth: 800, margin:'1vh' }}>
+            <Box key={video.id} sx={{ width:{xl:'450px',lg:'450px',md:'450px',sm:'50vw',xs:'50vw'}, maxWidth: 800, margin:'1vh' }}>
               <iframe
                 width="100%"
                 height="315"
